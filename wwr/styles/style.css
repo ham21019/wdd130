@@ -8,17 +8,15 @@ body {
     padding: 0;
 }
 
-#content {
-    max-width: 1600px;
-    margin: 0 auto;
+header {
+    background-color: #384d48;
+    display: grid;
+    grid-template-columns: 150px auto;
 }
 
-#logo_link {
-    padding-top: 5px;
-}
-
-#hero-msg h1, #hero-msg h4 {
-    text-align: center;
+nav {
+    display: flex;
+    justify-content: space-around;
 }
 
 nav a {
@@ -31,6 +29,21 @@ nav a {
 nav a:hover {
     background-color: #deb986;
     color: black;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;   
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
 }
 
 .button-box {
@@ -48,10 +61,6 @@ main section img {
 #background {
     height: 725px;
     background-color: #01a7c2;
-}
-
-header {
-    background-color: #384d48;
 }
 
 .book, .join {
