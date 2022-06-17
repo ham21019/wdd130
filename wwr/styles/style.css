@@ -232,9 +232,8 @@ footer .social img {
     background-color: #deb986;
 }
 
-.bookings-grid p {
-    font-size: 1.4rem;
-    color: black;
+.cost {
+    color: green;
     font-weight: bolder;
 }
 
@@ -255,6 +254,7 @@ footer .social img {
 
 .bookings-img img {
     border-radius: 25px;
+    padding-bottom: 25px;
 }
 
 .other-trips {
