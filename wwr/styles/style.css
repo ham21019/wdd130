@@ -222,6 +222,63 @@ footer .social img {
     padding-top: 10px;
 }
 
+/* 2022 Bookings Sub-Site CSS */
+
+.bookings-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 30px;
+    margin: 0 auto;
+    background-color: #deb986;
+}
+
+.bookings-grid p {
+    font-size: 1.4rem;
+    color: black;
+    font-weight: bolder;
+}
+
+.bookings-grid h2 {
+    font-size: 1.4rem;
+    color: #01a7c2;
+    font-weight: bolder;
+}
+
+.grand-canyon {
+    grid-column: 1/2;
+    text-align: left;
+}
+
+.bookings-img {
+    grid-column: 2/3;
+}
+
+.bookings-img img {
+    border-radius: 25px;
+}
+
+.other-trips {
+    grid-column: 3/4;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.bookings-grid h3 {
+    font-family: "Quicksand";
+    color: #a42212;
+    font-weight: bolder;
+}
+
+#bottom-img {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    text-align: center;
+}
+
+#bottom-img img {
+    border-radius: 25px;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
