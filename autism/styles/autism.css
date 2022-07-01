@@ -60,7 +60,7 @@ main {
 
 #hero {
     background-color: #a1e3b6;
-    padding: 10px;
+    padding: 25px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -90,13 +90,14 @@ h2 {
 
 #home-paragraph {
     margin: 0;
-    padding: 10px;
+    padding: 25px;
+    font-size: 2rem;
 }
 
 #asd-img {
     display: block;
     margin: 0 auto;
-    padding: 20px;
+    padding: 25px;
     border-radius: 50%;
 }
 
