@@ -26,6 +26,8 @@ header {
 nav {
     display: flex;
     justify-content: space-around;
+    line-height: 80px;
+    height: 120px    ;
 }
 
 nav a {
@@ -110,7 +112,7 @@ h3, li, #home-title {
 footer {
     background-color: #a1e3b6;
     padding: 25px 50px;
-    margin-top: 50px;
+    margin-top: 25px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -134,7 +136,7 @@ footer h3 a:hover {
 }
 
 footer .social img {
-    padding-top: 15px;
+    border-radius: 20%;
 }
 
 /* My Story Page CSS */
@@ -179,7 +181,6 @@ footer .social img {
 
 #resource-grid img {
     border-radius: 10%;
-    /* margin: 0 auto; */
     max-height: 300px;
 }
 
@@ -201,7 +202,7 @@ footer .social img {
 #checklist-img {
     grid-column: 3/4;
     grid-row: 2/3;
-    margin:0 auto;
+    margin: 50px auto
 }
 
 #resources-search-img {
@@ -212,4 +213,8 @@ footer .social img {
 #resource_3 {
     grid-column: 3/4;
     grid-row: 3/4;
+}
+
+#resource-grid h3 {
+    font-family: "Raleway";
 }
